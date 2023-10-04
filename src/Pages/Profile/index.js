@@ -169,7 +169,7 @@ const Profile = () => {
         </Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
-      <table className="profile-table">
+      <table className="profile-table" style={{margin:"50px"}}>
         <thead>
           <tr>
             <th>id</th>
