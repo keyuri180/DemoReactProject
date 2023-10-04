@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Link, json, useNavigate } from "react-router-dom";
+import { Link,  useNavigate } from "react-router-dom";
 import { Button, Modal } from "react-bootstrap";
-import "../Style/Navbar.scss";
+import "./Navbar.scss";
 import { Eye, EyeOff } from "react-feather";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
-import logo from "../img/Random Symboles 3.png";
-import logoimg from "../img/TheBox.png";
+import logo from "../../img/Random Symboles 3.png";
+import logoimg from "../../img/TheBox.png";
 
 const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);

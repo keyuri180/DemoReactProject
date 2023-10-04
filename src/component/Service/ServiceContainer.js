@@ -1,6 +1,6 @@
 import React from "react";
-import "../Style/Services.scss";
-const Service = (props) => {
+import "./Services.scss";
+const ServicesContainer = (props) => {
   const { data } = props;
   console.log("first", props);
   return (
@@ -18,4 +18,4 @@ const Service = (props) => {
   );
 };
 
-export default Service;
+export default ServicesContainer;

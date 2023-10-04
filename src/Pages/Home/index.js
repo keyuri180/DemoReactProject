@@ -1,11 +1,9 @@
 import React from "react";
-import homeimg from "../img/Hero.png";
-
-import Projects from "../component/Projects";
-
-import "../Style/Home.scss";
-import Second from "./Second";
-import ServicesContainer from "./ServicesContainer";
+import homeimg from "../../img/Hero.png";
+import "./Home.scss";
+import Reputation from "../../component/OurReputation/index";
+import Project from "../../component/Project/index"
+import Service from "../../component/Service/index";
 const Home = () => {
   return (
     <>
@@ -14,14 +12,14 @@ const Home = () => {
           <img src={homeimg} alt="Home" className="home-image" />
         </div>
         <div className="home-container">
-          <Second />
+          <Reputation />
         </div>
 
         <div className="home-container">
-          <ServicesContainer />
+          <Service />
         </div>
         <div className="home-container">
-          <Projects />
+          <Project />
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 import React from "react";
-import {homeData} from "../homeconstants";
+import {homeData} from "../../homeconstants";
 import HomeData from "./HomeData";
-const Second = () => {
+const Reputation = () => {
 
 
   return (
@@ -17,4 +17,4 @@ const Second = () => {
   );
 };
 
-export default Second;
+export default Reputation;

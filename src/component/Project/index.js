@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import data from "../data.json";
-import Photo from "./Photo";
-import "../Style/Project.scss";
+import data from "../../data.json";
+import Photo from "./Photo.js";
+import "./Project.scss";
 import { Button } from "react-bootstrap";
 
-const Projects = () => {
+const Project = () => {
   const [selectedType, setSelectedType] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 4;
@@ -84,4 +84,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;

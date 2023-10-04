@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 import { Edit, Trash } from "react-feather";
-import { validate } from "uuid";
 
 const Profile = () => {
   const [userinfo, setUserinfo] = useState(

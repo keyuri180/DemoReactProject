@@ -5,7 +5,7 @@ const Photo = ( props) => {
     console.log("lskfn",data)
   return (
     <div className='box'>
-        <img src={data?.image}/>
+        <img src={data?.image} alt="projectimg"/>
         <div className='projectname'>
             <h3>{data?.name}</h3>
             <p>{data?.address}</p>
