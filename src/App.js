@@ -4,8 +4,7 @@ import Protected from "./component/Protected";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Profile from "./Pages/Profile";
-import Navbar from "./component/Header/Navbar";
-
+import Navbar from "./component/Layout/Navbar/index"
 const App = () => {
   return (
     <BrowserRouter>

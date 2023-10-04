@@ -6,8 +6,8 @@ import "./Navbar.scss";
 import { Eye, EyeOff } from "react-feather";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
-import logo from "../../img/Random Symboles 3.png";
-import logoimg from "../../img/TheBox.png";
+import logo from "../../../img/Random Symboles 3.png";
+import logoimg from "../../../img/TheBox.png";
 
 const Navbar = () => {
   const [openModal, setOpenModal] = useState(false);
