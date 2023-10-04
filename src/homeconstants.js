@@ -1,5 +1,5 @@
-import icon from "./img/icon.png";
-import icon1 from "./img/Vector.png";
+import icon from "./assets/img/icon.png";
+import icon1 from "./assets/img/Vector.png";
 
 export const homeData = [
   {

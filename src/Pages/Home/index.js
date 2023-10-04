@@ -1,5 +1,5 @@
 import React from "react";
-import homeimg from "../../img/Hero.png";
+import homeimg from "../../assets/img/Hero.png";
 import "./Home.scss";
 import Reputation from "../../component/OurReputation/index";
 import Project from "../../component/Project/index"

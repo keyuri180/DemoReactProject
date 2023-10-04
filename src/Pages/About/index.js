@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "../../img/unsplash_6anudmpILw4.png";
+import aboutimg from "../../assets/img/unsplash_6anudmpILw4.png";
 import "./About.scss";
 const About = () => {
   return (

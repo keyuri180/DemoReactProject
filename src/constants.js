@@ -1,9 +1,9 @@
-import icon1 from "./img/icon (1).png";
-import icon2 from "./img/icon (2).png";
-import icon3 from "./img/icon (3).png";
-import icon4 from "./img/icon (4).png";
-import icon5 from "./img/icon (5).png";
-import icon6 from "./img/icon (6).png";
+import icon1 from "../src/assets/img/icon (1).png";
+import icon2 from "../src/assets/img/icon (2).png";
+import icon3 from "../src/assets/img/icon (3).png";
+import icon4 from "../src/assets/img/icon (4).png";
+import icon5 from "../src/assets/img/icon (5).png";
+import icon6 from "../src/assets/img/icon (6).png";
 
 
 export const servicesData = [
