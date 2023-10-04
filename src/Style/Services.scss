@@ -1,0 +1,58 @@
+.grid-service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 39px;
+  row-gap: 19px;
+  padding: 30px;
+  background: #F6F8F7;
+}
+
+.servicesname {
+  text-align: center;
+  padding: 50px;
+}
+
+.services-grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 38px;
+  row-gap: 20px;
+  width: 80%;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 30px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    hr {
+      width: 80px;
+      display: block;
+      border-top: 5px solid #000;
+    }
+    h1 {
+      color: #2947a9;
+      height: 80px;
+    }
+  }
+  .darkbackgroud {
+    background-color: #2947a9;
+
+    h1 {
+      color: #ffffff;
+    }
+  }
+}
+
+.servicesBox {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+}

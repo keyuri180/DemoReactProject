@@ -1,0 +1,65 @@
+.about-container {
+  width: 90%;
+  margin: auto;
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 65%;
+    height: 700px;
+    top: 75px;
+    left: 83.42px;
+    border-radius: 1.46px;
+    box-shadow: 0px 8px 8px -4px #1118270a, 0px 20px 24px -4px #1118271a;
+  }
+  .second-img {
+    position: absolute;
+    box-shadow: 0px 20px 24px -4px #1118271a;
+    width: 600px;
+    height: 480px;
+    top: 145px;
+    left: 1050px;
+    border-radius: 1.46px;
+    background-color: #2947a9;
+
+    h2{
+        position: absolute;
+        width: 200px;
+        height: 31px;
+        top: 36.59px;
+        left: 40px;
+        font-family: Work Sans;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:#FFFFFF;
+        ;
+    }
+   p{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 110px;
+    left: 40px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+
+   }
+   button{
+    position: absolute;
+    top: 360px;
+    left: 40px;
+    padding: 11.71px 14.63px 11.71px 14.63px;
+    border-radius: 4.39px;
+    border: 1.46px;
+    margin: 10px;
+    gap: 7.32px; }
+  }
+}
